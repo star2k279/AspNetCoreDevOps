@@ -14,7 +14,7 @@ namespace AspNetCoreDevOps.Controllers
         [HttpGet("GetValue")]
         public ActionResult<string> GetValue()
         {
-            return new string("Welcome to ASP.NET core DevOps training.....");
+            return new string("Welcome to ASP.NET core DevOps training..... edited");
         }
 
         // GET api/values/5
